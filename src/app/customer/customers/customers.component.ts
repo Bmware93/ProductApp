@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './customers.component.css'
 })
 export class CustomersComponent {
-
+customerName: string = "Benia Morgan"
+customerBio: string = "10x Coder"
 }

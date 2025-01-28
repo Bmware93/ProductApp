@@ -1,9 +1,11 @@
 
 <div [style.backgroundColor]="productColor">
     <p>product works!</p>
-    <p>product works!</p>
-    <p>product works!</p>
-    <p>product works!</p>
-    <p>product works!</p>
+ 
 </div>
+<div *ngIf="showReviews == true">
+    <h2>Product Reviews</h2>
+    <p *ngFor="let review of productReviews">{{review}}</p>
+</div>
+
 <input type="text" [(ngModel)]="productColor">

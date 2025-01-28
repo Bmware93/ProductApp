@@ -9,4 +9,6 @@ import { Component } from '@angular/core';
 })
 export class ProductComponent {
 productColor: string = "pink"
+productReviews: string[] = ["Good Product", "Amazing","Hated it", "Will order again"]
+showReviews: boolean = true
 }
